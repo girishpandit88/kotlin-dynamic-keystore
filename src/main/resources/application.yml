@@ -1,0 +1,11 @@
+dynamo:
+  endpoint: http://localhost:8000
+  tablePrefix: ""
+
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.gp: DEBUG
+  pattern:
+#    console: "%highlight(%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%-40.40logger{10}] - %msg%n)"
+    console: "%d{yyyy/MM/dd-HH:mm:ss.SSS} %highlight(%-5level) %-15t [%magenta()] [%green(%logger{36})]: %black(%msg%n)"
