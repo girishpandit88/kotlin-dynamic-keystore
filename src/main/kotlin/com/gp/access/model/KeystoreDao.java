@@ -27,6 +27,7 @@ public class KeystoreDao {
 	public void setId(String id) {
 		this.id = id;
 	}
+
 	@DynamoDBRangeKey
 	public String getKey() {
 		return key;
