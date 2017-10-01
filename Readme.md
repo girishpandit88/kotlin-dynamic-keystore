@@ -1,13 +1,4 @@
 #### Kotlin learning exercise
 =================================
 
-A `spring-boot` Restful application in `kotlin`. 
-
-```bash
-$ curl -s "http://localhost:8080/greeting"
-
-{"id":1,"content":"Hello, World"}%                                                                                                                                             
-$ curl -s "http://localhost:8080/greeting"
-
-{"id":2,"content":"Hello, World"}%         
-```
+This is a port of ![girishpandit88/dynamic-keystore](https://github.com/girishpandit88/dynamic-keystore) from java to kotlin
